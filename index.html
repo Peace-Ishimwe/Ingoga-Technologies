@@ -1,27 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ingoga Technologies</title>
-    <link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-</head>
-<body>
-    <header class="d-flex justify-content-between">
-        <img src="Images/logo nav.png">
-        <nav class="align-self-center">
-            <ul class="d-flex gap-5 ">
-                <li class="list-unstyled"><a class="text-decoration-none" href="#">About</a></li>
-                <li class="list-unstyled"><a class="text-decoration-none" href="#">Skills</a></li>
-                <li class="list-unstyled"><a class="text-decoration-none" href="#">Projects</a></li>
-                <li class="list-unstyled"><a class="text-decoration-none" href="#">Contact us</a></li>
+    <link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- Link css files -->
+    <link rel="stylesheet" href="Css/navbar.css" />
+    <link rel="stylesheet" href="Css/landing.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="header position-sticky top-0 ">
+        <header
+          class="d-flex justify-content-between py-2"
+        >
+          <div>
+            <img class="nav-image" src="Images/logo nav.png" />
+          </div>
+          <nav class="align-self-center">
+            <ul class="d-flex">
+              <li class="list-unstyled">
+                <a href="#" class="nav-link text-decoration-none">Home</a>
+              </li>
+              <li class="list-unstyled">
+                <a href="#" class="nav-links text-decoration-none">About</a>
+              </li>
+              <li class="list-unstyled">
+                <a href="#" class="nav-links text-decoration-none"
+                  >Testimonials</a
+                >
+              </li>
+              <li class="list-unstyled">
+                <a href="#" class="nav-links text-decoration-none">Contact</a>
+              </li>
             </ul>
-        </nav>
-        <button>
-            <a href="#">Contact us</a>
-        </button>
-    </header>
-</body>
+          </nav>
+          <div class="mt-2">
+            <img src="Images/linked in.svg" />
+            <img class="ms-2" src="Images/facebook.svg" />
+            <img class="ms-2" src="Images/twitter.svg" />
+            <img class="ms-2" src="Images/instagram.svg" />
+          </div>
+        </header>
+      </div>
+
+      <main class="d-flex">
+        <!-- THE HOME PAGE -->
+        <div class="div-one-main">
+          <div class="wlcm-main">Welcome</div>
+          <div class="ingoga">
+            <span>Ingoga</span>
+            <span>Technologies</span>
+          </div>
+          <div class="digital-main">
+            Your Partner in Digital Innovation. We are dedicated to helping
+            businesses navigate and succeed in the digital landscape.
+          </div>
+          <div>
+            <a class="link-main text-decoration-none" href="#">Explore</a>
+          </div>
+        </div>
+        <div class="pb-1 div-two-main">
+          <img class="animation-main" src="Images/computer 1.svg" />
+        </div>
+      </main>
+    </div>
+
+    <script src="Javscript/nav-bar.js"></script>
+    <script src="Javscript/landing.js"></script>
+  </body>
 </html>
