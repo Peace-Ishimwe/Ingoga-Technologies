@@ -28,7 +28,7 @@ main {
   display: none;
 }
 
-.wlcm-main {
+.wlcm-main , .what {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -44,7 +44,7 @@ main {
   padding: 0 5px 0 5px;
 }
 
-.ingoga {
+.ingoga , .experts {
   display: flex;
   flex-direction: column;
   font-family: "Poppins";
@@ -54,7 +54,7 @@ main {
   line-height: 76px;
   margin-top: 1rem;
 }
-.ingoga span:nth-of-type(1) {
+.ingoga span:nth-of-type(1) , .experts {
   color: #0e4da4;
 }
 .ingoga span:nth-of-type(2) {
