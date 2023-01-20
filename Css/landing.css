@@ -28,12 +28,11 @@ main {
   display: none;
 }
 
-.wlcm-main , .what {
-  font-family: "Poppins";
-  font-style: normal;
+.wlcm-main , .what , .customer{
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
+  text-align: center;
   background: linear-gradient(90deg, #d500f9 0%, #ff1744 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -47,8 +46,6 @@ main {
 .ingoga , .experts {
   display: flex;
   flex-direction: column;
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 600;
   font-size: 60px;
   line-height: 76px;
@@ -62,8 +59,6 @@ main {
 }
 
 .digital-main {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
@@ -76,12 +71,9 @@ main {
   background: #0e4da4;
   border-radius: 3px;
   color: white;
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
-  text-align: center;
   padding: .7rem 2rem;
 }
 
@@ -140,6 +132,9 @@ main {
 }
 
 @media (max-width:769px){
+  .wlcm-main , .what , .customer , .experts , .linking , .work{
+    margin: 0 auto;
+  }
   .background{
     background: #FCE6F8;
   }
@@ -157,8 +152,10 @@ main {
     flex-direction: column;
     justify-content: center;
   }
-  .ingoga{
+  .ingoga {
     flex-direction: row;
+    margin: 0 auto;
+    gap: .5rem;
   }
   .div-two-main{
     width: 100%;
@@ -171,7 +168,7 @@ main {
 }
 
 @media(max-width:740px){
-  .ingoga{
+  .ingoga , .experts{
     font-size: 38px;
     margin-top: 0;
   }
@@ -202,5 +199,3 @@ main {
     font-size: 24px;
   }
 }
-
-

@@ -1,6 +1,7 @@
-.what-we-do {
+.what-we-do  {
   width: 80%;
   margin: 0 auto;
+  padding-bottom: 3rem;
   display: flex;
   gap: 5rem;
   background: #ffffff;

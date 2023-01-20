@@ -1,0 +1,86 @@
+.sea-back{
+  background: url(../Images/sea-back.png) no-repeat center center/cover;
+}
+.sea-back1{
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.sea-back1 div:nth-of-type(1) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 64px;
+  color: #ffffff;
+}
+
+.sea-back1 div:nth-of-type(2) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.sea-back1 a {
+  background-color: #ffffff;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: .5rem 1rem;
+  float:right;
+  text-decoration: none;
+}
+.sea-back1 a span  {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  background: linear-gradient(90deg, #d500f9 0%, #ff1744 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+@media (max-width: 1180px) {
+    .sea-back1{
+      width: 90%;
+    }
+    .sea-back1 div:nth-of-type(1){
+        font-size: 48px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .sea-back1 {
+      width: 93%;
+    }
+    .sea-back1 div:nth-of-type(1){
+        font-size: 42px;
+    }
+  }
+  @media (max-width: 840px) {
+    .sea-back1 {
+      width: 95%;
+    }
+  }
+
+  @media (max-width:554px){
+    .sea-back1 a{
+        float: none;
+        width: fit-content;
+    }
+    .sea-back1{
+        display: flex;
+        flex-direction: column;
+    }
+    .sea-back1 div:nth-of-type(2){
+        margin-top: 1rem;
+        width: 100%;
+    }
+  }
