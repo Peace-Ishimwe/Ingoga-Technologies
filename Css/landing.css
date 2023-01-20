@@ -168,10 +168,6 @@ main {
     margin: 0;
     padding: 0;
   }
-  .link-main{
-    /* align-self: center; */
-    margin-left: 15rem;
-  }
 }
 
 @media(max-width:740px){
@@ -184,22 +180,6 @@ main {
     font-size: 20px;
     line-height: 25px;
   }
-  .link-main{
-    /* align-self: center; */
-    margin-left: 12rem;
-  }
-}
-@media (max-width:620px){
-  .link-main{
-    /* align-self: center; */
-    margin-left: 10rem;
-  }
-}
-@media (max-width:590px){
-  .link-main{
-    /* align-self: center; */
-    margin-left: 8rem;
-  }
 }
 @media(max-width:452px){
   .ingoga{
@@ -211,10 +191,6 @@ main {
     font-size: 18px;
     line-height: 25px;
   }
-  .link-main{
-    /* align-self: center; */
-    margin-left: 4rem;
-  }
   main{
     width: 100%;
     padding: 0;
@@ -222,10 +198,6 @@ main {
   }
 }
 @media (max-width:390px){
-  .link-main{
-    /* align-self: center; */
-    margin-left: 4rem;
-  }
   .ingoga{
     font-size: 24px;
   }
