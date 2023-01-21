@@ -48,12 +48,15 @@
   gap: 2rem;
 }
 
-.info div {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
+.our-info{
+    display: flex;
+    flex-direction: column;
 }
 
+.inform{
+    display: flex;
+    gap: 1rem;
+}
 .info {
   display: flex;
   gap: 2rem;
@@ -123,6 +126,7 @@
   color: #92929d;
 }
 
+
 .center+p{
     font-weight: 500;
     font-size: 16px;
@@ -135,9 +139,6 @@
   }
   .form {
     width: 100%;
-  }
-  .info div {
-    gap: 1rem;
   }
 }
 
@@ -179,10 +180,15 @@
   .submit {
     width: 100%;
   }
-  .our-info{
-    display: none;
-  }
+  .our-info span{
+    align-self: center;
 }
+.icons{
+    display: grid;
+    justify-content: center;
+}
+}
+
 
 @media (max-width: 530px) {
   .input div {
