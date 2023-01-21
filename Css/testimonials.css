@@ -36,6 +36,7 @@
 }
 
 .slides-name {
+    font-family: 'Poppins';
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -43,6 +44,7 @@
 }
 
 .slides-co {
+    font-family: 'Poppins';
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
