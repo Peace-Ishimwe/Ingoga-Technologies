@@ -199,8 +199,28 @@
   .input div input {
     width: 100%;
   }
-  .info{
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
+}
+@media(max-width:720px){
+    .info{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        justify-content: space-around;
+        align-content: center;
+    }
+    .our{
+        align-self: center;
+    }
+}
+@media(max-width:720px){
+    .info{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        justify-content: space-around;
+        align-content: center;
+    }
+    .our{
+        align-self: center;
+    }
 }

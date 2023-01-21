@@ -27,6 +27,7 @@ body::-webkit-scrollbar-thumb {
   animation-duration: 2s;
   position: relative;
   animation-timing-function: ease-in-out;
+  margin: 0 auto;
 }
 
 @keyframes prop {
@@ -97,6 +98,7 @@ main {
   background: #0e4da4;
   border-radius: 3px;
   color: white;
+  text-decoration: none;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
@@ -117,6 +119,7 @@ main {
   justify-content: center;
   align-content: flex-end;
   padding-left: 10rem;
+  padding-bottom: .5rem;
 }
 
 @media (max-width: 1180px) {
@@ -207,6 +210,7 @@ main {
     margin-top: 0;
     font-size: 20px;
     line-height: 25px;
+    text-align: center;
   }
 }
 @media (max-width: 452px) {

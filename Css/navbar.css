@@ -14,11 +14,43 @@
   border-image: linear-gradient(90deg, #d500f9 0%, #ff1744 100%) 5;
 }
 
+.social{
+  margin-top: .5rem;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.header{
+  position: sticky;
+  top: 0;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem 0;
+}
+
+nav{
+  align-self: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  list-style: none;
+}
+
 .nav-links {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
+  text-decoration: none;
   line-height: 24px;
   text-align: center;
   color: #000;
