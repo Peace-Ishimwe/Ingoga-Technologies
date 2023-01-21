@@ -100,13 +100,13 @@ main {
 
 
 @media (max-width:1180px){
-  main{
+  main , .contact-us{
     width: 90%;
   }
 }
 
 @media (max-width:992px){
-  main{
+  main , .contact-us{
     width: 93%;
   }
   .background{
