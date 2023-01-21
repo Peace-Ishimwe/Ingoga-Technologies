@@ -1,10 +1,27 @@
+::-webkit-scrollbar {
+  width: 15px;
+  height: 10px ;
+}
 
-.background{
+::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 100vw;
+  margin-block: .5rem;
+
+}
+::-webkit-scrollbar-thumb {
+  background-color: #fccfe5;
+  border-radius: 100vw;
+}
+body::-webkit-scrollbar-thumb {
+  border: 2px solid white;
+}
+
+.background {
   background: url(../Images/background.png) no-repeat center center/cover;
 }
 
-
-.animation-main{
+.animation-main {
   animation-name: prop;
   animation-iteration-count: infinite;
   animation-duration: 2s;
@@ -13,11 +30,16 @@
 }
 
 @keyframes prop {
-  0%{bottom: 0px;}
-  50%{bottom: 20px;}
-  100%{bottom: 0px;}
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 20px;
+  }
+  100% {
+    bottom: 0px;
+  }
 }
-
 
 main {
   width: 80%;
@@ -25,9 +47,10 @@ main {
   height: 78vh;
 }
 
-
-.wlcm-main , .what , .customer{
-  font-family: 'Poppins';
+.wlcm-main,
+.what,
+.customer {
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -42,7 +65,8 @@ main {
   padding: 0 5px 0 5px;
 }
 
-.ingoga , .experts {
+.ingoga,
+.experts {
   display: flex;
   flex-direction: column;
   font-weight: 600;
@@ -50,7 +74,8 @@ main {
   line-height: 76px;
   margin-top: 1rem;
 }
-.ingoga span:nth-of-type(1) , .experts {
+.ingoga span:nth-of-type(1),
+.experts {
   color: #0e4da4;
 }
 .ingoga span:nth-of-type(2) {
@@ -58,7 +83,7 @@ main {
 }
 
 .digital-main {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
@@ -68,27 +93,25 @@ main {
 }
 
 .link-main {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   background: #0e4da4;
   border-radius: 3px;
   color: white;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
-  padding: .7rem 2rem;
+  padding: 0.7rem 2rem;
 }
 
-.link-main:hover{
+.link-main:hover {
   color: white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
-
-.div-one-main{
+.div-one-main {
   width: 50%;
 }
-.div-two-main{
+.div-two-main {
   width: 50%;
   display: grid;
   justify-content: center;
@@ -96,56 +119,62 @@ main {
   padding-left: 10rem;
 }
 
-
-@media (max-width:1180px){
-  main , .contact-us{
+@media (max-width: 1180px) {
+  main,
+  .contact-us {
     width: 90%;
   }
 }
 
-@media (max-width:992px){
-  main , .contact-us{
+@media (max-width: 992px) {
+  main,
+  .contact-us {
     width: 93%;
   }
-  .background{
-    background: url(../Images/background2.png) ;
+  .background {
+    background: url(../Images/background2.png);
   }
-  .div-one-main{
+  .div-one-main {
     width: 53%;
   }
-  .div-two-main{
+  .div-two-main {
     width: 30%;
     padding-left: 5rem;
   }
 }
-@media (max-width:930){
-  main{
+@media (max-width: 930) {
+  main {
     width: 70%;
   }
 }
-@media (max-width:840px) {
-  main{
+@media (max-width: 840px) {
+  main {
     width: 95%;
   }
-  .div-two-main img{
+  .div-two-main img {
     padding-left: 10rem;
   }
 }
 
-@media (max-width:769px){
-  .wlcm-main , .what , .customer , .experts , .linking , .work{
+@media (max-width: 769px) {
+  .wlcm-main,
+  .what,
+  .customer,
+  .experts,
+  .linking,
+  .work {
     margin: 0 auto;
   }
-  .background{
-    background: #FCE6F8;
+  .background {
+    background: #fce6f8;
   }
-  main{
+  main {
     flex-direction: column;
     width: 85%;
     margin: 3rem auto;
     justify-content: center;
   }
-  .div-one-main{
+  .div-one-main {
     height: fit-content;
     padding: 2rem;
     width: 100%;
@@ -156,47 +185,48 @@ main {
   .ingoga {
     flex-direction: row;
     margin: 0 auto;
-    gap: .5rem;
+    gap: 0.5rem;
   }
-  .div-two-main{
+  .div-two-main {
     width: 100%;
     padding: 0;
   }
-  .div-two-main img{
+  .div-two-main img {
     margin: 0;
     padding: 0;
   }
 }
 
-@media(max-width:740px){
-  .ingoga , .experts{
+@media (max-width: 740px) {
+  .ingoga,
+  .experts {
     font-size: 38px;
     margin-top: 0;
   }
-  .digital-main{
+  .digital-main {
     margin-top: 0;
     font-size: 20px;
     line-height: 25px;
   }
 }
-@media(max-width:452px){
-  .ingoga{
+@media (max-width: 452px) {
+  .ingoga {
     font-size: 28px;
     margin-top: 0;
   }
-  .digital-main{
+  .digital-main {
     margin-top: 0;
     font-size: 18px;
     line-height: 25px;
   }
-  main{
+  main {
     width: 100%;
     padding: 0;
     margin: 0;
   }
 }
-@media (max-width:390px){
-  .ingoga{
+@media (max-width: 390px) {
+  .ingoga {
     font-size: 24px;
   }
 }
