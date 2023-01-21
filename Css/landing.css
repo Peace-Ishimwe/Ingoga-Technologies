@@ -3,6 +3,7 @@
   background: url(../Images/background.png) no-repeat center center/cover;
 }
 
+
 .animation-main{
   animation-name: prop;
   animation-iteration-count: infinite;
@@ -24,9 +25,6 @@ main {
   height: 78vh;
 }
 
-::-webkit-scrollbar{
-  display: none;
-}
 
 .wlcm-main , .what , .customer{
   font-family: 'Poppins';
