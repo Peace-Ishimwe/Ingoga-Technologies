@@ -18,7 +18,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .background {
-  background: url(../Images/background.png) no-repeat center center/cover;
+  background: url(../Images/background.svg) no-repeat center center/cover;
 }
 
 .animation-main {
@@ -135,7 +135,7 @@ main {
     width: 93%;
   }
   .background {
-    background: url(../Images/background2.png);
+    background: url(../Images/background2.svg);
   }
   .div-one-main {
     width: 53%;
