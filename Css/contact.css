@@ -45,6 +45,7 @@
 .form-info{
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
 }
 
 .info div{
@@ -57,6 +58,7 @@
     display: flex;
     gap:3rem ;
     flex-direction: column;
+    justify-content: center;
 }
 
 .submit{
@@ -102,5 +104,17 @@
     letter-spacing: 0.008em;
     color: #92929D;    
     font-family: 'Poppins';
+}
+
+@media(max-width:1100px){
+    .submit{
+        width: 60%;
+    }
+    .form{
+        width: 100%;
+    }
+    .info div{
+        gap: 1rem;
+    }
 }
 
