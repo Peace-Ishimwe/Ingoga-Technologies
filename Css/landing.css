@@ -45,7 +45,8 @@ body::-webkit-scrollbar-thumb {
 main {
   width: 80%;
   margin: 6rem auto;
-  height: 78vh;
+  height: 79vh;
+  gap: 3rem;
 }
 
 .wlcm-main,
